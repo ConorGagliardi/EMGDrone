@@ -1,2 +1,2 @@
 # EMGDrone
-Worked on a novel UAV control scheme using human gestures captured through electromyography (EMG) and inertial measurement unit (IMU) data. Developed and tested different machine learning classifiers, with an emphasis on real-time gesture classification accuracy.
+<iframe src="/files/EMGDrone.pdf" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>

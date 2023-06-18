@@ -1,0 +1,4 @@
+The SVM requires pickle to open. You should be able to load it as :
+import pickle 
+with open('SVM.pkl', 'rb') as f:
+    clf2 = pickle.load(f)

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<launch>
+    <arg name="debug" default="0" />
+    <arg name="use_unity_editor" default="false" />
+    
+    <node name="mtest" pkg="flightros" type="mtest" output="screen" launch-prefix="gdb -ex run --args" if="$(arg debug)" >
+    </node>
+
+    <node name="mtest" pkg="flightros" type="mtest" output="screen" unless="$(arg debug)">
+    </node>
+
+</launch>
